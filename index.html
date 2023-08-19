@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">
+                Ebad's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="Skills.html">Skills</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="animatewholebody">
+        <main>
+            <section class="firstsection">
+                <div class="leftsection">
+                    Hi,My name Is <span class="purple">Ebad Ur Rehman</span>
+                    <span id="element"></span>
+                    <div class="buttons"><button class="btn"><a
+                                href="https://drive.google.com/file/d/1B8B4qzUD-lS_z6noKM3M_cQUlwgkIPuT/view?usp=sharing" class="link">Download
+                                Resume</a>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="rightsection">
+                    <img src="ebad.jpg" alt="">
+                </div>
+            </section>
+            <hr>
+            <section class="secondsection">
+                <span class="greytext"> What i have done so far.</span>
+                <h1>Projects</h1>
+                <div class="box">
+                    <div class="verticalline">
+                        <img src="developer.png" alt="" class="topimage">
+                        <div class="verticaltitle">Web Development Project (2022-2022)
+                        </div>
+                        <div class="para">Developed a responsive website using HTML, CSS, and
+                            JavaScript.Integrated interactive features and optimized site performance.</div>
+                    </div>
+                    <div class="verticalline"> <img src="python.png" alt="" class="topimage">
+                        <div class="verticaltitle">Face Recognition Project (2022-2023)
+                        </div>
+                        <div class="para">Developed a face recognition system using Python and
+                            OpenCV library.Implemented features like face detection, recognition, and
+                            tracking.</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footerone">
+                    <h3>Ebad's Portfolio</h3>
+                </div>
+
+
+                <div class="ftwofooter">
+                    <ul class="footbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Skills.html">Skills</a></li>
+                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="Contact.html">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="fthreefooter">
+                    <ul class="footbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Skills.html">Skills</a></li>
+                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="Contact.html">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="ffourfooter">
+                    <ul class="footbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Skills.html">Skills</a></li>
+                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="Contact.html">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="righttext">
+                    <p>Copyright &#169;ebad'sportfolio.com | All rights are reserved</p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['And I Am Front End Developer'],
+                typeSpeed: 50,
+            });
+        </script>
+    </div>
+</body>
+
+</html>
