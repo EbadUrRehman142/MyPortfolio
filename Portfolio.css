@@ -1,0 +1,377 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+      }
+    
+@keyframes ebad1 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+    
+.animatewholebody
+{
+    animation: ebad1 0.4s ease-in-out 0s 1;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(18, 18, 62);
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 27px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover, nav ul li a.active{
+    color: rgb(105 102 129);
+    font-size: 1.0rem;
+    text-decoration: underline;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 12px 0px;
+}
+
+.firstsection>div {
+
+    width: 40%;
+}
+
+.leftsection {
+    margin: 178px 1px;
+    font-size: 34px;
+}
+
+.rightsection img {
+    width: 88%;
+    margin: 80px 63px;
+}
+
+.purple {
+    color: purple;
+}
+
+#element {
+    color: purple;
+}
+
+.secondsection {
+    max-width: 81vw;
+    margin: auto;
+    height: 41vw;
+    position: relative;
+    top: 65px;
+
+}
+
+.secondsection h1 {
+    font-size: 2rem;
+}
+
+.greytext {
+    color: grey;
+}
+
+main hr {
+    border: 0px;
+    height: 1.5px;
+    background-color: purple;
+    margin: 27px 80px;
+}
+
+.secondsection .box {
+    background-color: purple;
+    height: 2px;
+    width: 80vw;
+    margin: 50px 0px;
+    display: flex;
+}
+
+.secondsection .verticalline {
+
+    background-color: purple;
+    height: 92px;
+    width: 2px;
+    margin: 0px 260px;
+}
+.topimage
+{
+    position: relative;
+    top: -43px;
+    right: 17px;
+    width: 39px;
+}
+.verticaltitle
+{
+    position: relative;
+    top: 50px;
+    right: 204px;
+    width: 650px;
+    font-size: 24px;
+}
+.para
+{
+    width: 563px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    right: 268px;
+    font-size: 15px;
+}
+footer
+{
+    display: flex;
+    background-color:rgb(18, 18, 62);
+    height: 210px;
+    
+}
+.footer
+{
+    display: flex;
+    margin: 23px 103px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer .footbar
+{
+    margin: 35px 61px;
+    position: relative;
+    left: 118px;
+}
+.footbar li 
+{
+    list-style: none;
+}
+.footbar li a
+{
+    text-decoration: none;
+    color: white;
+}
+.fonefooter h3
+{
+    position: relative;
+    left: 122%;
+}
+.righttext p
+{    right: 382px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 82px;
+    font-size: 12px;
+
+} 
+.footerone{
+    position: relative;
+    top: -69px;
+    left: 149px;
+}
+.leftsection .buttons .btn
+{
+    margin: 18px 19px;
+    border: 2px solid white;
+    background-color: #12123e;
+    padding: 14px;
+    font-size: 18px;
+    color: white;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.leftsection .buttons .btn:hover
+{
+    background-color: purple;
+    animation: ebi1 1s ease-in forwards;
+}
+.container{
+    background-color: rgb(0, 0, 33);
+
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 31px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.container .box-container .box img{
+    height: 80px;
+}
+
+.container .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.container .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#000021;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .container{
+        padding:20px;
+    }
+}
+.contact-info{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    height: 56vh;
+  }
+  
+  
+  .card{
+    background: #2f3542;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    top: -20px;
+    left: 86px;
+
+    
+  }
+  
+  .card-icon{
+    font-size: 28px;
+    background: #ff6348;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+  }
+  
+  .card:hover .card-icon{
+    background: none;
+    color: #ff6348;
+    transform: scale(1.6);
+  }
+  
+  .card p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+  }
+  
+  .card:hover p{
+    max-height: 40px;
+    opacity: 1;
+  }
+  
+  
+  @media screen and (max-width:800px) {
+    .contact-info{
+      flex-direction: column;
+    }
+    .card{
+      width: 100%;
+      max-width: 300px;
+      margin: 10px 0;
+    }
+  }
+.h1 h1
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+.firstsection .link
+{
+    text-decoration: none;
+    color: white;
+}
+  
